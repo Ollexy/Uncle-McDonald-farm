@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solve(int fenceLenght);
+void solve(long double fenceLenght);
 
 int main()
 {
@@ -36,7 +36,7 @@ int main()
     return 0;
 }
 
-int solve(int fenceLenght)
+void solve(long double fenceLenght)
 {
     long double area, a, b;
     //optimal area of farm
