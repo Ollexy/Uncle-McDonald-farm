@@ -38,7 +38,7 @@ int main()
 
 void solve(long double fenceLength)
 {
-    long double area, a, b;
+    long long area, a, b;
     //optimal area of farm
     fenceLength = floor(fenceLength); // rounding down, because for example, with 10.5 m of fence, we can't use 11 m
     a = round( fenceLength/4 ); // axis symetry || area =a*b, fence = 2a+b, a=fence-2a, area = (fence-2a)a, area=-2a*a + fence(a), fence-2a = 0, fence=2a, a=fence/2(it is a root, so axis symetry is in half, so a= fence/4
